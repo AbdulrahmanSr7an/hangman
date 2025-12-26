@@ -97,7 +97,7 @@ choice.forEach(ele => {
           contInp.style.display = "none";
           youWin.play()
           win.style.display = "flex";
-          win.document.querySelector("p").textContent = `The Word is : ${word}`;
+          win.querySelector("p").textContent = `The Word is : ${word}`;
           winBtn.addEventListener("click", function () {
             window.location.reload()
           })
@@ -107,7 +107,7 @@ choice.forEach(ele => {
           contInp.style.display = "none";
           youLose.play();
           lose.style.display = "flex";
-          lose.document.querySelector("p").textContent = `The Word is : ${word}`;
+          lose.querySelector("p").textContent = `The Word is : ${word}`;
           loseBtn.addEventListener("click", function () {
             window.location.reload();
           });
@@ -116,3 +116,4 @@ choice.forEach(ele => {
     });
   })
 })
+
