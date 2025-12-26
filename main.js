@@ -12,8 +12,8 @@ let choices = document.querySelector(".choices");
 let choice = choices.querySelectorAll("div");
 let win = document.querySelector(".win");
 let winBtn = document.querySelector(".winbtn");
-let loseBtn = document.querySelector(".losebtn");
 let lose = document.querySelector(".lose");
+let loseBtn = document.querySelector(".losebtn");
 const success = new Audio("game-bonus-02-294436.mp3");
 const fail = new Audio("spin-fail-295088.mp3");
 const youLose = new Audio("you-loseheavy-echoed-voice-230555.mp3");
@@ -116,4 +116,3 @@ choice.forEach(ele => {
     });
   })
 })
-
